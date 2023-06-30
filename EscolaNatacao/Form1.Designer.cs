@@ -64,6 +64,7 @@
             txtAulaNome = new TextBox();
             label11 = new Label();
             tabPage4 = new TabPage();
+            label19 = new Label();
             dataGridViewMarcacoes = new DataGridView();
             btnMarcacaoAula = new Button();
             label18 = new Label();
@@ -74,7 +75,6 @@
             cmbMarcacaoAula = new ComboBox();
             txtMarcacaoHorario = new MaskedTextBox();
             dtpMarcacaoData = new DateTimePicker();
-            label19 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -123,7 +123,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(504, 19);
+            label6.Location = new Point(538, 19);
             label6.Name = "label6";
             label6.Size = new Size(112, 15);
             label6.TabIndex = 12;
@@ -134,7 +134,7 @@
             listBoxAlunos.DisplayMember = "Nome";
             listBoxAlunos.FormattingEnabled = true;
             listBoxAlunos.ItemHeight = 15;
-            listBoxAlunos.Location = new Point(506, 40);
+            listBoxAlunos.Location = new Point(540, 40);
             listBoxAlunos.Name = "listBoxAlunos";
             listBoxAlunos.Size = new Size(280, 349);
             listBoxAlunos.TabIndex = 11;
@@ -449,6 +449,15 @@
             tabPage4.Text = "Marcação de Aula";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(344, 26);
+            label19.Name = "label19";
+            label19.Size = new Size(64, 15);
+            label19.TabIndex = 10;
+            label19.Text = "Marcações";
+            // 
             // dataGridViewMarcacoes
             // 
             dataGridViewMarcacoes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -537,15 +546,6 @@
             dtpMarcacaoData.Name = "dtpMarcacaoData";
             dtpMarcacaoData.Size = new Size(200, 23);
             dtpMarcacaoData.TabIndex = 0;
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(344, 26);
-            label19.Name = "label19";
-            label19.Size = new Size(64, 15);
-            label19.TabIndex = 10;
-            label19.Text = "Marcações";
             // 
             // Form1
             // 
